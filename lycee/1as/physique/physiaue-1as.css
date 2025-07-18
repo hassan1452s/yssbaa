@@ -1,0 +1,332 @@
+*{
+     padding: 0;
+     margin: 0;
+     color: black;
+}
+body{
+    height: 3000px;
+    background-color: #0E2646;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+html{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+  
+}
+.header{
+    width: 100%;
+    background-color: #1a61ad;
+   
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    align-items: center;
+}
+/*_____________________________________ header and logo-DzHassan___________________________________________________*/
+
+.header a {
+    width: 3.5%;
+    margin: 5px 30px ;
+}
+
+.img-header-left{
+    padding: 2px;
+    width: 100%;
+ 
+}
+.img-header-right{
+    width: 100%;
+    vertical-align: middle;
+}
+.pargarphe-header{
+    display: inline-block;
+    font-size: 3vw;
+    padding: 0 15px;
+    font-weight: bold;
+    word-spacing: 1VW;
+    letter-spacing: 1px;
+}
+
+
+/*____________________________________change-color ________________________________*/
+
+.parent-chang-color {
+    background-color: #ff274b;
+    height: 85px;
+    display: flex;
+    
+    
+}
+.parent-chang-color div 
+{
+    height: inherit;
+    flex-grow: 1;
+
+
+}
+.color-1{
+    background-color: rgb(150, 38, 150);
+    height:inherit;
+}
+.color-2{
+    background-color: #11862f;
+    height:inherit;
+}
+.color-3{
+    background-color: rgb(244, 169, 7);
+    height:inherit;
+}
+.color-4{
+    background-color: #00BFFF;
+    height:inherit;
+}
+
+
+
+
+
+/*____________________________________ i3lan _______________________________________*/
+
+
+.logo-hassan{
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 30%;
+}
+.logo-hassan-pargraph{
+    display:inline-block;
+    
+
+}
+span{
+    color: #ff274b;
+}
+ /*______________________________________ paragraph______________________________*/
+
+ .text-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin:  10px auto;
+ }
+ .text-paragraph p {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding: 8px 0;
+ }
+  .text-paragraph p a {
+    text-decoration: none;
+}
+ .text-1{
+    background-color: rgb(150, 38, 150);;
+    border-radius:   10px 10px 0 0 ;
+}
+ .text-2 {
+    background-color: rgb(170, 19, 170);
+    border-radius:  0 0 10px 10px ;
+
+ }
+
+/*_____________________________________________ Exam and text ____________________*/
+
+.parent {
+     width: 80%;
+     margin: 50px auto;
+     display: flex;
+     flex-direction: column;
+}
+.parent div {
+    margin: 1px 0 ;
+}
+.collapse-parent
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.collapse-childer
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.left,.right
+{
+    background-color: #00BFFF;
+    display: inline;
+     width: 20px;
+     padding:  12px 15px; 
+     
+    
+}
+.left{
+        border-radius: 8px 0 0 8px;
+        margin-right:8px ;
+ }
+ .right{
+        border-radius: 0 8px 8px 0;
+
+ }
+.parent div a img
+{
+    width: 100%;
+}
+
+.center{
+    text-decoration: none;
+    font-weight:600;
+    font-size: 2vw;
+    padding-right: 5px;
+    flex-grow: 1;
+    text-align: right;
+}
+.collapse-parent{
+    background-color:#1526e6;
+}
+.collapse-childer{
+    background-color: #176fe4;
+}
+.collapse-childer a.right {
+    background-color: #ff274b;
+    padding: 8px 11px;
+}
+
+.collapse-childer a.left {
+    background-color: #176fe4;
+    padding: 0 12px;
+}
+.collapse-childer a.center
+{
+  
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.collapse-childer a.center,.collapse-childer_adab a.center
+{
+    font-size: 1.5vw;
+
+}
+
+.collapse-parent_adab{
+
+     display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #6904e7;
+
+
+}
+.collapse-childer_adab
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+/*______________________________________ hikma__________________________________________*/
+.hikma{
+    background-color: rgb(0 115 29);
+    margin: 50px auto;   
+    width: 80%;
+    text-align: center;
+    padding: 15px 8px;
+    border-radius: 8px;
+}
+
+.hikma p {
+    font-weight: bold;
+    font-size: 1.5vw;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) 
+{
+.header a 
+{
+    width: 10%;
+    padding:  0 5px;
+    margin: 0 ;
+}
+
+.pargarphe-header
+{
+    font-size: 4vw;
+    padding: 0;
+}
+.parent-chang-color
+{
+    height: 66px;
+}
+.text-paragraph
+{
+    width: 90%;
+}
+.text-paragraph p 
+{
+    font-size: 4.5vw;
+}
+
+.parent
+{
+    width: 90%;
+}
+.center
+{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.collapse-childer a.center
+{
+    font-size: 3vw;
+}
+
+.hikma
+{
+    width: 90%;
+}
+.hikma p 
+{
+  font-size: 3.5vw;
+}
+
+
+
+
+
+
+}

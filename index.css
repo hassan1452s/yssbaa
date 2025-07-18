@@ -1,0 +1,336 @@
+*{
+     padding: 0;
+     margin: 0;
+     color: black;
+}
+body{
+   
+   
+    background-color: #0E2646;
+}
+html{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+  
+}
+.header{
+    width: 100%;
+    background-color: #1a61ad;
+    border-radius:  0  0  20px 20px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    align-items: center;
+}
+/*_____________________________________ header and logo-DzHassan___________________________________________________*/
+
+.img-header-left{
+    width: 5%;
+ 
+}
+.img-header-right{
+    width: 5%;
+    vertical-align: middle;
+}
+.pargarphe-header{
+    display: inline-block;
+    font-size: 3vw;
+    padding: 0 15px;
+    font-weight: bold;
+    word-spacing: 1VW;
+    letter-spacing: 1px;
+}
+.i3lan {
+    margin: 120px  auto 40px  auto;
+    width: 60%;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #44a98e;
+    border-radius: 10PX;
+}
+
+.logo-hassan{
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 6vw;
+    width: 30%;
+}
+.logo-hassan-pargraph{
+    display:inline-block;
+    
+
+}
+span{
+    color: #ff274b;
+}
+
+
+
+
+/*____________________________________________________________________________________________*/
+
+
+
+.parent
+
+{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    margin: 60px auto;
+
+}
+.t3lim
+{
+    width: 85%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.lycee ,.ciyam ,.ibtida
+{
+    text-align: center;
+    width: 30%;   
+    background-color: #44a98e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom:10px ;
+    
+  
+    border-radius: 10PX;
+}
+.lycee-childer ,.ciyam-childer,.ibtida-childer
+{
+    display: block;
+    font-size: 2vw;
+    text-decoration: none;
+     margin: 5px 0;
+    transition: 0.4s;
+}
+.lycee-childer:hover ,.ciyam-childer:hover,.ibtida-childer:hover{
+    color: #d31534;
+    font-weight: bold;
+}
+
+
+h1
+{
+    color: black;
+    margin: 10px 0;
+    font-size: 2.6vw;
+    text-decoration: underline;
+}
+
+
+/*________________________________________ chahada_____________________________________________*/
+
+.chahada
+{
+    margin: 60px 0;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bac-childer,.bem-childer,.ap5-childer
+{
+    text-align: center;
+    width:30%;
+    background-color: #44a98e;
+    border-radius:10px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 1.7vw;
+    transition: 0.4s;
+}
+.bac-childer:hover,.bem-childer:hover,.ap5-childer:hover{
+   background-color: #1a9272d1;
+    font-weight: bold;
+}
+
+
+/*_____________________________________________About + i3lan-2____________________________*/
+
+
+.about
+{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4vw;
+}
+
+.about-site
+{
+    background-color: #44a98e;
+    border-radius: 10px;
+    text-align: right;
+    padding: 10px;
+
+}
+.about-site h2
+{
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.about-site {
+    font-size: 1.8vw;
+    line-height: 1.6em;
+
+}
+
+.i3lan-2
+{
+    width: 30%;
+    background-color: #44a98e;
+    flex-shrink: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.8vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+     
+    
+         .parent {
+     width: 100%;
+    }
+
+    .i3lan {
+    margin: 80px auto 40px auto;
+    width: 90%;
+ 
+}
+    .pargarphe-header{
+        font-size: 3.5vw;
+    }
+
+    .img-header-left,.img-header-right{
+        width: 10%;
+    }
+
+.logo-hassan {
+    margin: 30px auto;
+
+    font-size: 12vw;
+   
+}
+
+/*_______________________________________________________________*/
+    .t3lim{
+    
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+    .lycee ,.ciyam ,.ibtida
+    {
+        width: 70%;
+        margin: 15px 0;
+    }
+     h1{
+        font-size: 5.5555555555555vw;
+     }
+
+    .lycee-childer ,.ciyam-childer,.ibtida-childer
+{
+    display: block;
+    font-size: 4vw;
+    text-decoration: none;
+
+}
+/*________________________________________________________________________________*/
+.chahada{
+    margin: 30px;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+ .bac-childer, .bem-childer, .ap5-childer {
+    width: 70%;
+    margin-bottom: 20px;
+ 
+}
+    .bac-childer, .bem-childer, .ap5-childer {
+    
+    font-size: 3vw;
+   
+}
+/*______________________________________*/
+.about 
+{
+ flex-direction: column-reverse;
+ align-items: center;
+ justify-content: center;
+ gap: 0px;
+
+}
+.i3lan-2
+{
+font-size: 4vw;
+height: 100px;
+width: 90%;
+}
+.about-site{
+ width:calc((70%) - 20px);
+   margin: 50px 0;
+}
+.about-site h2{
+    font-size: 2.7vw;
+}
+.about-site p {
+    font-size: 2vw;
+}  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
